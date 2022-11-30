@@ -1,0 +1,48 @@
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: grid;
+  place-items: center;
+	justify-content: center;
+}
+
+body div {
+  padding: 100px;
+  border-radius: 30px;
+  background-color: #EEE;
+	text-align: center;
+  
+}
+
+img{
+	padding: 45px;
+  border-radius: 3px;
+  background-color: #EEE;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+h1,h2,h4{
+  padding: 0px;
+  padding-bottom: 0px;
+  margin: 1000;
+	justify-content: center;
+}
+
+input {
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  background-color: #FFF;
+}
