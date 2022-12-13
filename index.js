@@ -6,10 +6,9 @@
         t = {};
       for (const e in r)
         t[e] = btoa(document.querySelector(r[e]).value).replace(/=/g, "");
-      //username
       return "Y3liZXI" !== t.u
         ? alert("Incorrect Username") 
-        : //password
+        : 
         "c2VjdXJpdHk" !== t.p
         ? alert("Incorrect Password")
         : void window.location.assign("flagpage.html"); //alert("Correct Password");
