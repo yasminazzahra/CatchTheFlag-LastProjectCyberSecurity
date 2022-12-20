@@ -11,6 +11,6 @@
         : 
         "c2VjdXJpdHk" !== t.p
         ? alert("Incorrect Password")
-        : void window.location.assign("flagpage.html"); //alert("Correct Password");
+        : void window.location.assign("page.html"); //alert("Correct Password");
     });
 })();
